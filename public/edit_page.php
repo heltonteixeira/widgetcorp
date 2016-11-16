@@ -56,7 +56,7 @@ if (isset($_POST["submit"])) {
     </div>
     <div id="page">
         <?php echo message(); ?>
-        <?php echo form_errors(); ?>
+        <?php echo form_errors($errors); ?>
 
         <h2>Edit Page: <?php echo htmlentities($current_page["menu_name"]); ?></h2>
         <form action="edit_page.php?page=<?php echo urlencode($current_page["id"]); ?>" method="post">

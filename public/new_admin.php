@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
     </div>
     <div id="page">
         <?php echo message(); ?>
-        <?php echo form_errors(); ?>
+        <?php echo form_errors($errors); ?>
 
         <h2>Create Admin</h2>
         <form action="new_admin.php" method="post">
