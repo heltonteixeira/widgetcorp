@@ -13,7 +13,8 @@ $layout_context = "admin";
 
 <div id="main">
     <div id="navigation">
-        &nbsp;
+        <br>
+        <a href="admin.php">&laquo; Main Menu</a>
     </div>
     <div id="page">
         <?php echo message(); ?>
